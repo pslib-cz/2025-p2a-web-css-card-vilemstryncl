@@ -13,6 +13,7 @@
     }
     .main {
         display: flow-root;
+        
     }
 }
 
@@ -25,10 +26,65 @@
         max-width: 21em;
         margin: 1rem; /* without scaling */
         padding: 1em;
+        
+        
     }
 }
 
 @layer components {
     /* todo components */
- 
+.card--marketer{
+    background-color: gray;
+    border: #515959;
+    border-radius: 1em;
+  
+}
+.header{
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-right: 2em;
+   
+}
+.header_h1{
+    font-size: 3em;
+    padding-bottom: 0.5em;
+    color: var(--border);
+}
+.header_text{
+    font-size: 1.25em;
+    padding-bottom: 1.5em;
+}
+.main_main{
+    
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.main_cena{
+    font-size: 1.5em;
+}
+
+.main_podtrhnuti{
+    text-decoration: underline;
+    
+}
+.button{
+    padding: 1em;
+    border-radius: 1em;
+    background-color: var(--primary);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.button_p{
+  
+
+}
+.footer{
+    
+    padding-right: 2em;
+}
+
+
 }
